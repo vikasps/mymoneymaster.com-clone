@@ -1,0 +1,81 @@
+.transfer_banner {
+  width: 100%;
+}
+.company_brief {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+.company_brief_para {
+  padding: 0px 60px 0px 0px;
+}
+.brief_title {
+  font-weight: 100;
+  font-size: 39px;
+  color: #4a4646;
+}
+.brief_title span {
+  font-weight: 700;
+  color: #000;
+}
+.p {
+  margin-top: 20px;
+  line-height: 22px;
+  color: #4a4646;
+  font-size: 17px;
+}
+.company_brief_img {
+}
+.facilities {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 15px;
+}
+.fac_card {
+  width: 32%;
+  display: flex;
+  align-items: center;
+}
+.fac_img {
+}
+.fac_title {
+  font-size: 32px;
+  padding: 0px 10px 0px 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .company_brief {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .company_brief_para {
+    padding: 0;
+  }
+  .facilities {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .brief_title {
+    font-size: 29px;
+  }
+  .fac_card {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .company_brief_para {
+    padding: 0;
+  }
+  .fac_img {
+    width: 70px;
+    height: 70px;
+  }
+  .fac_title {
+    font-size: 20px;
+  }
+}

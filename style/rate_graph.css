@@ -1,0 +1,394 @@
+.padt-10 {
+  padding-top: 10px;
+}
+.flex_cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graph_banner {
+  background: url(../images/rate_graph.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 263px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #f3ebeb;
+}
+.graph_content {
+  width: 32%;
+  padding-left: 30px;
+  color: #ffff;
+}
+.graph_title {
+  font-weight: 500;
+  font-size: 32px;
+}
+.graph_para {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* <!-- currency rate bu sell sec starts here --> */
+
+.cur_rate_sec {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  width: 95%;
+  margin: 0 auto;
+}
+.cur_rate_sec_left {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+table,
+th {
+  border-collapse: collapse;
+  font-family: "Open Sans", sans-serif;
+}
+.cur_table tr:last-child {
+  border-bottom: 2px solid #f3ebeb;
+}
+.cur_header {
+  padding: 20px;
+  background: url(../images/pattern-line.png);
+  background-size: contain;
+  z-index: 4;
+  background-color: #9e2e6a;
+  color: #ffff;
+  border-collapse: collapse;
+}
+.cur_h1 {
+  padding: 17px 60px 20px 0px;
+}
+.cur_h2,
+.cur_h3 {
+  padding: 0px 10px;
+  padding-left: 18px;
+  border-left: 1px solid #9e2e6a;
+  border-right: 1px solid #9e2e6a;
+}
+.cur_header th {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.cur_tr {
+  border-top: 2px solid #f3ebeb;
+  border-left: 2px solid #f3ebeb;
+  border-right: 2px solid #f3ebeb;
+  padding-bottom: 10px;
+}
+.cur_tr:hover {
+  background: linear-gradient(to bottom, #9e2e6a 22%, #e7e7e7 136%);
+  transition: 0.8s;
+}
+.cur_tr:hover .value_share {
+  background-color: #ffff;
+  transition: 0.8s;
+}
+.cur_tr:hover .cur_cnt {
+  color: #ffff;
+}
+.cur_cnt {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 10px 13px;
+}
+.cur_nam {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.cur_value {
+  font-size: 14px;
+}
+.text-center {
+  text-align: center;
+}
+.cur_buying {
+  text-align: center;
+}
+.value_share {
+  padding: 6px 15px;
+  background: #f9def8;
+  font-size: 15px;
+}
+.cur_selling {
+  text-align: center;
+}
+
+/* calendar data starts here */
+.calendar {
+  width: 100%;
+  padding-top: 20px;
+}
+[type="date"] {
+  background: #fff url(./images/calendar.png) 97% 50% no-repeat;
+  background-size: 22px 26px;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+/* custom styles */
+label {
+  display: block;
+  padding-bottom: 15px;
+  color: #9e2e6a;
+}
+input {
+  border: 1px solid #9e2e6a;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 9px 10px;
+  box-shadow: inset 0 3px 6px rgb(0 0 0 / 10%);
+  width: 250px;
+}
+::placeholder {
+  color: fuchsia;
+}
+.calender_cnt {
+  display: flex;
+}
+.date_sub {
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background-color: #9e2e6a;
+  color: #fff;
+  font-size: 15px;
+}
+/* calendar data ends here */
+
+.demo_1 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.demo_2 {
+  display: flex;
+
+  justify-content: space-between;
+}
+.cur_rate_sec_right {
+  width: 35%;
+  display: flex;
+}
+.cur_details {
+  width: 100%;
+  padding: 0px 10px;
+  box-shadow: 18px 21px 34px -27px rgba(0, 0, 0, 0.75);
+}
+.country_cur_detials {
+  display: flex;
+  align-items: center;
+  background-color: #e7e7e7;
+}
+.country_flags {
+  width: 60px;
+  height: 60px;
+}
+.country_names {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #9e2e6a;
+}
+.currency_type {
+  font-size: 20px;
+  color: #9e2e6a;
+  padding: 20px 0px;
+}
+.buying_status,
+.selling_status {
+  display: flex;
+  flex-direction: column;
+}
+.cur_buy_cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cnt {
+  display: flex;
+}
+.buying_head {
+  padding: 10px 20px;
+  background: url(../images/pattern-line.png);
+  background-size: contain;
+  z-index: 4;
+  background-color: #ab286e;
+  font-size: 20px;
+  color: #ffff;
+}
+
+.div_edge {
+  width: 60px;
+  height: 53px;
+}
+.stock_graph {
+  width: 40px;
+  height: 35px;
+}
+.currency_qnty {
+  font-size: 45px;
+  text-align: right;
+}
+.currency_variation {
+  width: 44%;
+  padding: 5px 0px;
+  background-color: #e7e7e7;
+  text-align: center;
+  font-size: 15px;
+}
+.currency_variation_value {
+  text-align: right;
+  color: green;
+}
+.fnt_red {
+  color: red;
+}
+
+/* stock chart for cdn */
+figure {
+}
+.highcharts-figure,
+.highcharts-data-table table {
+  width: 60%;
+  height: 70%;
+  /* margin: 1em auto; */
+}
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 60%;
+  height: 70%;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.calender_cnt_1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.no_of_days > span {
+  background: #dcdcdc;
+  padding: 5px;
+}
+.calender_cnt_1 input {
+  width: 31%;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/* <!-- currency rate bu sell sec ends here --> */
+
+.short_currency_sec {
+  width: 100%;
+  margin-top: 20px;
+}
+.short_title {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 15px 0px;
+}
+.short_currency_list {
+  width: 100%;
+}
+.short_currency_list > thead {
+  background-color: #e4e4e4;
+}
+.short_head {
+  padding: 10px 7px;
+  display: flex;
+  align-items: center;
+}
+.short_img {
+  width: 25px;
+  height: 25px;
+}
+.short_img_1 {
+  width: 30px;
+  height: 30px;
+}
+.short_cur {
+  padding-left: 5px;
+}
+.short_table {
+}
+.short_empty {
+  width: 54px;
+}
+.short_table > th {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.short_row td {
+  border-bottom: 1px solid gray;
+}
+.short_row td span {
+  display: inline-block;
+  width: 61px;
+  padding: 10px 5px;
+  font-weight: 700;
+  text-align: center;
+}
+.short_row:hover {
+  background-color: #9e2e6a;
+  transition: 1s;
+  color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+  .cur_rate_sec {
+    flex-direction: column;
+  }
+  .cur_rate_sec_left {
+    width: 100%;
+    text-align: center;
+  }
+  .demo_1,
+  .demo_2 {
+    width: 100%;
+  }
+  .short_currency_sec {
+    width: 100%;
+    overflow: overlay;
+  }
+  .short_currency_list {
+    width: 100%;
+  }
+}

@@ -1,0 +1,372 @@
+.exchange_rate_banner {
+  background: url(../images/rate-board.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 263px;
+  display: flex;
+  align-items: center;
+}
+.ex_content {
+  width: 32%;
+  padding-left: 30px;
+  color: #ffff;
+}
+.exch_title {
+  font-weight: 500;
+  font-size: 32px;
+}
+.exch_para {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* <!-- currency value sec starts hfere --> */
+.current_value_sec {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.value_left,
+.value_side {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.value_side {
+  justify-content: flex-end;
+}
+.value_side > .value_card {
+  justify-content: flex-end;
+}
+.value_left > .value_card {
+  justify-content: flex-start;
+}
+.value_card {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.value_card:hover .vcard_right {
+  background: url(../images/pattern-line.png);
+  background-size: contain;
+  z-index: 4;
+  background-color: #9e2e6a;
+  color: #ffff;
+  transition: 0.5s;
+}
+.value_card:hover .v_cnty {
+  color: #ffff;
+}
+.vcard_left {
+}
+.v_img {
+  width: 90px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cbcbcb;
+}
+
+.v1 {
+  background: url(../images/usa.png);
+}
+.v2 {
+  background: url(../images/uk.png);
+}
+.v3 {
+  background: url(../images/europe.png);
+}
+.v4 {
+  background: url(../images/chn.png);
+}
+.v_img_common {
+  display: inline-block;
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+.v_cnt {
+  padding: 8px 25px;
+  background-color: black;
+  color: white;
+}
+.vcard_right {
+  background-color: #e4e4e4;
+  width: 50%;
+}
+.v_cnty {
+  padding: 10px 8px;
+  color: #9e2e6a;
+  border-bottom: 1px solid #d0c7c7;
+}
+.v_buy {
+  padding: 10px 8px;
+}
+.v_sell {
+  padding: 0px 8px;
+}
+/* value right here */
+.value_right {
+  width: 50%;
+  height: 50%;
+  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+}
+.value_right:hover {
+  width: 55%;
+  transition: width 0.5s;
+  box-shadow: 1px -2px 71px -20px rgba(0, 0, 0, 0.75);
+}
+.current_price_status {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #822d5a;
+  border-radius: 10px;
+}
+.cur_cty_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  padding: 10px 0px;
+  background: url(../images/pattern-line.png);
+  background-size: contain;
+  z-index: 4;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #9e2e6a;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  color: #ffff;
+}
+.cur_cty_title img {
+  width: 70px;
+  padding-right: 15px;
+}
+
+.cur_cty_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.price_buy {
+  width: 30%;
+  padding-bottom: 20px;
+  background: url(../images/pattern-line.png);
+  background-size: contain;
+  z-index: 4;
+  border-radius: 10px;
+  background-color: #9e2e6a;
+  color: #ffff;
+  text-align: center;
+}
+.price_buy_title {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 15px 10px;
+}
+.price_buy_rate {
+  display: flex;
+  justify-content: space-evenly;
+}
+.current_rate {
+  font-size: 50px;
+}
+.by-off {
+  display: flex;
+  flex-direction: column;
+}
+.by-off_bor {
+  font-size: 27px;
+  border-bottom: 1px solid grey;
+}
+.by-off_img {
+  padding-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.stock_units {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 1px -2px 71px -20px rgba(0, 0, 0, 0.75);
+}
+.s_u_title {
+  font-size: 28px;
+  padding: 10px 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #333030;
+}
+.s_u_no {
+  font-size: 36px;
+  text-align: center;
+  padding: 9px;
+}
+.currency_brief {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 25px;
+}
+/* <!-- currency value sec ends here --> */
+
+/* <!-- currency convertor starts here  --> */
+.demo_1 {
+  display: flex;
+}
+.cur_convertor_sec {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+.cur_convertor_title {
+  width: 40%;
+  padding: 20px 10px;
+  background: url(../images/pattern-line.png);
+  background-size: contain;
+  z-index: 4;
+  background-color: #9e2e6a;
+  color: #ffff;
+}
+.convertor_container {
+  width: 100%;
+  margin: 0 auto;
+
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4e4e4;
+  border: 2px solid #9e2e6a;
+}
+.pad_10 {
+  padding: 20px 0px 10px 0px;
+}
+.font_property {
+  font-weight: 600;
+  font-size: 15px;
+}
+.conv_left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.conv_left input {
+  padding: 7px 0px;
+  width: 75%;
+}
+.slt_mny {
+}
+.given_mny {
+}
+.cnvt_mny {
+}
+.conv_center {
+  width: 50px;
+  height: 50px;
+}
+.conv_center:hover {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  box-shadow: 1px -2px 71px -20px rgba(0, 0, 0, 0.75);
+  background: #ffff;
+}
+.conv_right {
+  width: 40%;
+}
+.total span:first-child {
+  padding-right: 40px;
+}
+.conv_rupee {
+  padding: 30px 0px;
+}
+.conv_rupee span:first-child {
+  padding-right: 95px;
+}
+.value_conv {
+}
+.value_conv span:first-child {
+  padding-right: 47px;
+}
+.total_value {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* <!-- currency convertor ends here  --> */
+
+@media screen and (max-width: 1200px) {
+  .value_left,
+  .value_side {
+    display: none;
+  }
+  .current_value_sec {
+    margin-top: 30px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 940px) {
+  .value_left,
+  .value_side {
+    display: flex;
+    width: 100%;
+  }
+  .value_left,
+  .value_side {
+    flex-direction: row !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .value_card {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .vcard_left {
+  }
+
+  .v_img {
+    height: 81px;
+  }
+  .current_value_sec {
+    flex-direction: column;
+  }
+  .current_value_sec {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .value_right {
+    width: 60%;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .value_right {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .value_right {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .value_right {
+    width: 100%;
+  }
+}
