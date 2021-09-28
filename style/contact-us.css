@@ -97,7 +97,8 @@
   font-size: 15px;
 }
 .cnt_ip_data input {
-  padding: 13px 70px;
+  padding: 11px 0px;
+  width: 70%;
   border-radius: 5px;
   border: 1px solid red;
   /* border: 1px solid #f0efed; */
@@ -109,6 +110,12 @@
 .msg_flex {
   display: flex;
   align-items: flex-start;
+}
+#msg_area {
+  border-radius: 5px;
+  /* border: 1px solid #f0efed; */
+  border: 1px solid red;
+  background: #f9f9f9;
 }
 .capthca_area {
   display: flex;
@@ -153,13 +160,18 @@
     width: 100%;
   }
   .cnt_us_main_right {
+    width: 100%;
   }
+  .cnt_us_input {
+    width: 100%;
+  }
+
   .captcha {
     padding-left: 38px;
     padding-right: 20px;
   }
   .cnt_ip_data input {
-    width: 60%;
+    width: 40%;
   }
   .capthca_area {
     width: 96%;

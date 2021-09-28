@@ -663,7 +663,13 @@ marquee span {
     position: relative;
     border-bottom: 1px solid #000;
   }
-
+  .nav_list_rspn {
+    display: block;
+    width: 95%;
+  }
+  .nav_list li a {
+    padding-left: 20px;
+  }
   .nav_list li {
     text-align: left;
   }

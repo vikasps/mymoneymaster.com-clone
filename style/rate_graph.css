@@ -378,11 +378,16 @@ figure {
   }
   .cur_rate_sec_left {
     width: 100%;
-    text-align: center;
+  }
+  .calender_cnt {
+    justify-content: center;
   }
   .demo_1,
   .demo_2 {
     width: 100%;
+  }
+  .demo_2 {
+    margin-top: 10px;
   }
   .short_currency_sec {
     width: 100%;
@@ -391,4 +396,28 @@ figure {
   .short_currency_list {
     width: 100%;
   }
+}
+@media screen and (max-width: 850px) {
+  .graph_content {
+    width: 100%;
+  }
+  .demo_2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cur_rate_sec_right {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .highcharts-figure,
+  .highcharts-data-table table {
+    width: 100%;
+  }
+  .no_of_days {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 776px) {
 }
